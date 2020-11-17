@@ -8,11 +8,11 @@ As a Tier 1 project there is no need to use the Google Fonts API to retrieve fon
 **Requirements**
 
 *Structure*
-- [ ] Header with minor navigation *(Logo and Catalog/Featured/Articles/About link list)*
-- [ ] Nav with Major navigation / page-manipulation *(search, custom text, font-size, dark/light mode, grid/list mode, and reset)*
+- [x] Header with minor navigation *(Logo and Catalog/Featured/Articles/About link list)*
+- [x] Nav with Major navigation / page-manipulation *(search, custom text, font-size, dark/light mode, grid/list mode, and reset)*
 - [ ] Main section to contain the font cards
 - [ ] Font cards which display the Font Name, the sample text, and an add button
-- [ ] Footer section with your developer information
+- [x] Footer section with your developer information
 
 *Style*
 - [ ] Sample text in each card should be displayed in the corresponding font
