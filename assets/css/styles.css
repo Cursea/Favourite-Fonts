@@ -23,7 +23,7 @@ li {
   justify-content: space-between;
   align-content: center;
   border-bottom: 2px solid grey;
-  margin-bottom: 3%;
+  margin-bottom: 1rem;
 }
 
 #header-nav > div {
@@ -43,8 +43,9 @@ li {
   display: flex;
   justify-content: center;
   align-content: space-between;
+  margin: auto 4rem;
   border: 2px solid grey;
-  border-radius: 15%;
+  border-radius: 2rem;
 }
 
 #search,
@@ -84,7 +85,8 @@ li {
 #list-mode,
 #search,
 #custom-text,
-#font-sizes {
+#font-sizes,
+#reset {
   margin: auto;
 }
 
@@ -95,7 +97,18 @@ li {
 }
 
 .card {
-  padding: 1.5rem;
+  display: grid;
+  padding: 0.5rem 0.2rem;
+  margin: 1.5rem 1rem;
+  border-top: 0.08rem solid whitesmoke;
+}
+
+.font-name {
+  display: inline;
+}
+
+.card > i {
+  justify-content: right;
 }
 
 i.fas {
