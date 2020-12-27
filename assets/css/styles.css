@@ -114,3 +114,7 @@ li {
 i.fas {
   color: red;
 }
+
+footer > p {
+  text-align: center;
+}
